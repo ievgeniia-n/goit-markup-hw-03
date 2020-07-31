@@ -244,11 +244,15 @@ ul {
 	background-color: white;
 	border: 1px solid transparent;
 	border-radius: 0px 0px 4px 4px;
-	width: calc((100%-90px) / 4);
 }
 
 .img-team {
 	margin-bottom: 30px;
+}
+
+.member {
+	display: flex;
+	justify-content: space-between;
 }
 .member-description {
 	margin-top: 0;
@@ -259,6 +263,9 @@ ul {
 	letter-spacing: 0.03em;
 }
 
+.clients-list {
+	display: flex;
+}
 .img-clients {
 	border: 1px solid var(--border-color);
 	border-radius: 4px;
@@ -267,7 +274,6 @@ ul {
 	background-color: #ffffff;
 }
 .icon {
-	display: inline-block;
 	vertical-align: middle;
 }
 .order-link {
@@ -312,7 +318,6 @@ address .link {
 .mail-link {
 	margin-bottom: 9px;
 }
-
 
 .text-footer {
 	margin-top: 0;
