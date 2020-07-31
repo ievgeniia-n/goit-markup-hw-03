@@ -21,7 +21,6 @@
 body {
 	font-family: Roboto, sans-serif;
 	background-color: #ffffff;
-	color: var(--primary-text-color);
 }
 
 ul {
@@ -50,6 +49,7 @@ ul {
 }
 
 .main-nav {
+	padding-top: 24px;
 	display: flex;
 	align-items: center;
 }
@@ -101,10 +101,21 @@ ul {
 .auth-nav .link:focus {
 	color: var(--accent-color);
 }
-
+.section-title {
+	margin-top: 0;
+	margin-bottom: 50px;
+	font-family: Roboto, sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var (--title-text-color);
+}
 .page {
 	text-align: center;
 }
+
 .page-title {
 	margin-top: 0;
 	margin-bottom: 30px;
@@ -169,18 +180,6 @@ ul {
 	color: var(--title-text-color);
 }
 
-.section-title {
-	margin-top: 0;
-	margin-bottom: 50px;
-	font-family: Roboto, sans-serif;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.16;
-	text-align: center;
-	letter-spacing: 0.03em;
-	color: var (--title-text-color);
-}
-
 .features {
 	display: flex;
 	flex-wrap: wrap;
@@ -222,6 +221,7 @@ ul {
 	font-size: 16px;
 	line-height: 1.86;
 	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
 }
 
 .section.team {
@@ -261,21 +261,26 @@ ul {
 	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
+	color: var(--primary-text-color);
 }
 
 .clients-list {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 .img-clients {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 	border: 1px solid var(--border-color);
 	border-radius: 4px;
 	width: 170px;
 	height: 90px;
 	background-color: #ffffff;
 }
-.icon {
-	vertical-align: middle;
-}
+
 .order-link {
 	padding: 10px 32px;
 	border-radius: 4px;
